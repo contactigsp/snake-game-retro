@@ -106,7 +106,7 @@ function startGame() {
   score = 0;
   scoreDisplay.innerHTML = score;
   randomApple();
-  direction = 1;
+  let direction = 1;
   snake.currentIndex = [2, 1, 0];
   snake.speed = 400;
   snake.direction = 1;
